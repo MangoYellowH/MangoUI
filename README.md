@@ -6,6 +6,9 @@ React based on Functional Component
     - [install homebrew into system](#install-homebrew-into-system)
     - [install iterm2](#install-iterm2)
     - [git](#git)
+  - [React](#react)
+    - [concept](#concept)
+    - [Keyboard shortcuts](#keyboard-shortcuts)
 
 ## install
 
@@ -36,7 +39,7 @@ git push
 git pull 
 git rm file1.txt
 git commit -m "remove file1.txt"  #remove the file from the Git repository and the filesystem
-'''
+```
 
 
 
