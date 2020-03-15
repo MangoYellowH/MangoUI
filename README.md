@@ -34,12 +34,21 @@ $ brew cleanup                          # Remove any older versions from the cel
 
 make sure git is installed.
 
+git chekout master   # transfer to master branch
+
+git add README.md   #summit file to git
+git push
+git pull 
+
+
+
 
 ## React
 ### concept
 React is a declarative, efficient, and flexible JavaScript library for building user interfaces. 
 
 ### Keyboard shortcuts
+```shell
 Command-H：隐藏最前面的 App 的窗口。
 Command-M：将最前面的窗口最小化至“程序坞”。
 Command-O：打开所选项，或打开一个对话框以选择要打开的文件。
@@ -53,3 +62,4 @@ Control-Command-F：全屏使用 App（如果 App 支持）。
 Command-逗号 (,)：打开最前面的 App 设置。
 Shift-Command-5：在 macOS Mojave 或更高版本中，拍摄截屏或录制屏幕。
 Control-Command-Q：立即锁定屏幕。
+```
