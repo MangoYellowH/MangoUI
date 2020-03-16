@@ -1,0 +1,19 @@
+{
+  "name": "mangoui",
+  "version": "1.0.0",
+  "description": "React based on Functional Component",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MangoYellowH/MangoUI.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MangoYellowH/MangoUI/issues"
+  },
+  "homepage": "https://github.com/MangoYellowH/MangoUI#readme"
+}
