@@ -34,21 +34,22 @@ $ brew cleanup                          # Remove any older versions from the cel
 ```shell
 make sure git is installed.
 git chekout master   # transfer to master branch
-git add README.md   #summit file to git
+git add readme.md   #summit file to git
+git commit
 git push
 git pull 
 git rm file1.txt
-git commit -m "remove file1.txt"  #remove the file from the Git repository and the filesystem
+git commit -m "remove file1.txt"  #remove the file from the git repository and the filesystem
 ```
 
 
 
 
-## React
-### concept
-React is a declarative, efficient, and flexible JavaScript library for building user interfaces. 
+## REACT
+### CONCEPT
+REACT IS A DECLARATIVE, EFFICIENT, AND FLEXIBLE JAVASCRIPT LIBRARY FOR BUILDING USER INTERFACES. 
 
-### Keyboard shortcuts
+### KEYBOARD SHORTCUTS
 ```shell
 Command-H：隐藏最前面的 App 的窗口。
 Command-M：将最前面的窗口最小化至“程序坞”。
