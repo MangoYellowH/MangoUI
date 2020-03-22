@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/MangoYellowH/MangoUI/issues"
   },
-  "homepage": "https://github.com/MangoYellowH/MangoUI#readme"
+  "homepage": "https://github.com/MangoYellowH/MangoUI#readme",
+  "devDependencies": {
+    "@storybook/react": "^5.3.17"
+  }
 }
