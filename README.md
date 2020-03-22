@@ -56,9 +56,23 @@ brew install pyenv # python version management
 npm init
 ```
 
+### yarn
+
+```
+brew install yarn
+```
+
+```
+brew upgrade yarn 
+```
+
+
+
 ## Other
 
 ### git moji
 <https://gitmoji.carloscuesta.me/>
+
+
 
 
