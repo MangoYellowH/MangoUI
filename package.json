@@ -7,11 +7,8 @@
     "start": "start-storybook",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/MangoYellowH/MangoUI.git"
-  },
-  "author": "",
+  "repository": "git+https://github.com/MangoYellowH/MangoUI.git",
+  "author": "huangyuan3h <huangyuan3h@gmail.com>",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/MangoYellowH/MangoUI/issues"
@@ -19,8 +16,16 @@
   "homepage": "https://github.com/MangoYellowH/MangoUI#readme",
   "devDependencies": {
     "@babel/core": "^7.9.0",
+    "@storybook/addon-info": "^5.3.17",
     "@storybook/react": "^5.3.17",
-    "babel-loader": "^8.1.0"
+    "@types/jest": "^25.1.4",
+    "babel-loader": "^8.1.0",
+    "jest": "^25.1.0",
+    "react-docgen-typescript-loader": "^3.7.1",
+    "ts-jest": "^25.2.1",
+    "ts-loader": "^6.2.1",
+    "typescript": "^3.8.3",
+    "babel-preset-react-app": "^9.1.2"
   },
   "dependencies": {
     "react": "^16.13.1",
