@@ -6,9 +6,14 @@ React based on Functional Component
     - [install homebrew into system](#install-homebrew-into-system)
     - [install iterm2](#install-iterm2)
     - [git](#git)
-  - [React](#react)
-    - [concept](#concept)
-    - [Keyboard shortcuts](#keyboard-shortcuts)
+  - [REACT](#react)
+    - [CONCEPT](#concept)
+    - [KEYBOARD SHORTCUTS](#keyboard-shortcuts)
+    - [Homebrew](#homebrew)
+    - [init project](#init-project)
+    - [yarn](#yarn)
+  - [Other](#other)
+    - [git moji](#git-moji)
 
 ## install
 
@@ -43,8 +48,6 @@ git commit -m "remove file1.txt"  #remove the file from the git repository and t
 ```
 
 
-
-
 ## REACT
 ### CONCEPT
 REACT IS A DECLARATIVE, EFFICIENT, AND FLEXIBLE JAVASCRIPT LIBRARY FOR BUILDING USER INTERFACES. 
@@ -65,3 +68,46 @@ Command-逗号 (,)：打开最前面的 App 设置。
 Shift-Command-5：在 macOS Mojave 或更高版本中，拍摄截屏或录制屏幕。
 Control-Command-Q：立即锁定屏幕。
 ```
+
+### Homebrew
+
+update your brew to the very new version:
+
+```shell
+brew update && brew upgrade && brew cleanup
+brew cask cleanup
+```
+
+
+some useful libs
+
+```shell
+
+brew install tig # the helper of git log
+brew install pyenv # python version management 
+
+```
+
+### init project
+
+```
+npm init
+```
+
+### yarn
+
+```
+brew install yarn
+```
+
+```
+brew upgrade yarn 
+```
+
+
+
+## Other
+
+### git moji
+<https://gitmoji.carloscuesta.me/>
+
