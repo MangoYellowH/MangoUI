@@ -111,3 +111,17 @@ brew upgrade yarn
 ### git moji
 <https://gitmoji.carloscuesta.me/>
 
+<<<<<<< HEAD
+=======
+### configure eslint typescript
+
+```
+yarn add -D eslint-config-airbnb eslint-plugin-react eslint-plugin-jsx-a11y eslint-plugin-import
+```
+
+read .eslint file
+
+
+
+
+>>>>>>> 9151caa9c70cf9e5b2dea5c0d56039fbc8797da4
