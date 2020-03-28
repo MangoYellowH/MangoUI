@@ -39,6 +39,7 @@
   },
   "dependencies": {
     "@storybook/react": "^5.3.17",
+    "normalize.css": "^8.0.1",
     "react": "^16.13.1",
     "react-dom": "^16.13.1"
   },
