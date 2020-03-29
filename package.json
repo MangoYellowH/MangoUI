@@ -35,16 +35,17 @@
     "husky": "^4.2.3",
     "jest": "^25.1.0",
     "lint-staged": "^10.0.9",
+    "normalize.css": "^8.0.1",
     "react-docgen-typescript-loader": "^3.7.1",
+    "rfs": "^9.0.2",
     "ts-jest": "^25.2.1",
     "ts-loader": "^6.2.1",
-    "typescript": "^3.8.3",
-    "rfs": "^9.0.2"
+    "typescript": "^3.8.3"
   },
   "dependencies": {
     "@storybook/addon-knobs": "^5.3.17",
     "@storybook/react": "^5.3.17",
-    "normalize.css": "^8.0.1",
+    "clsx": "^1.1.0",
     "react": "^16.13.1",
     "react-dom": "^16.13.1"
   },

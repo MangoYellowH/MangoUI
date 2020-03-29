@@ -10,7 +10,7 @@ export default {
 const buttonText = text('text', 'button text');
 
 export const ButtonStory = (): ReactElement => (
-  <Button
-    text={buttonText}
-  />
+  <Button onClick={() => 0}>
+    {buttonText}
+  </Button>
 );

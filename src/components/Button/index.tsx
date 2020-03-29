@@ -1,14 +1,32 @@
-import React, { ReactElement } from 'react';
+import React, { ReactElement, ReactNode } from 'react';
+import clsx from 'clsx';
 
+enum ButtonType {
+  default = 'default',
+  primary = 'primary',
+  error = 'error',
+}
 
 interface ButtonProps {
-  text: string;
+  type?: string | ButtonType;
+  classes?: string | string[];
+  disabled?: boolean;
+  onClick: () => void;
+  children: ReactNode;
 }
 
 const Button: React.FC<ButtonProps> = ({
-  text,
+  children, onClick, type = 'default', classes, disabled,
 }: ButtonProps): ReactElement<ButtonProps> => (
-  <div>{text}</div>
+  <div
+    className={clsx('Button', type, disabled && 'disabled', classes)}
+    role="button"
+    onClick={onClick}
+    onKeyPress={onClick}
+    tabIndex={0}
+  >
+    {children}
+  </div>
 );
 
 export default Button;
