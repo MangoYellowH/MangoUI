@@ -1,3 +1,4 @@
+const path = require('path');
 
 module.exports = {
     stories: ['../src/**/*.stories.tsx'],
@@ -15,6 +16,13 @@ module.exports = {
             presets: [['react-app', { flow: false, typescript: true }]],
           },
         });
+
+        config.module.rules.push({
+          test: /\.scss$/,
+          use: ['style-loader', 'css-loader', 'sass-loader'],
+          include: path.resolve(__dirname, '../'),
+        });
+
         config.resolve.extensions.push('.ts', '.tsx');
         return config;
       },
