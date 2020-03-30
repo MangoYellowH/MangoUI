@@ -18,15 +18,14 @@ interface ButtonProps {
 const Button: React.FC<ButtonProps> = ({
   children, onClick, type = 'default', classes, disabled,
 }: ButtonProps): ReactElement<ButtonProps> => (
-  <div
+  <button
+    type="button"
     className={clsx('Button', type, disabled && 'disabled', classes)}
-    role="button"
+    disabled={disabled}
     onClick={onClick}
-    onKeyPress={onClick}
-    tabIndex={0}
   >
     {children}
-  </div>
+  </button>
 );
 
 export default Button;
