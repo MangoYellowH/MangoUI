@@ -1,5 +1,6 @@
 import React, { ReactElement } from 'react';
 import { text } from '@storybook/addon-knobs';
+import { action } from '@storybook/addon-actions';
 import Mango from '../../HOC/WithTheme/Mango';
 import Skyline from '../../HOC/WithTheme/Skyline';
 import Button from './index';
@@ -9,7 +10,7 @@ export default {
 };
 
 const ButtonStory = (): ReactElement => (
-  <Button onClick={() => 0}>
+  <Button onClick={action('button click')}>
     {text('text', 'button text')}
   </Button>
 );
