@@ -1,10 +1,9 @@
 import React, { ReactElement } from 'react';
-import { withKnobs, text } from '@storybook/addon-knobs';
+import { text } from '@storybook/addon-knobs';
 import Button from './index';
 
 export default {
-  title: 'Button1',
-  decorators: [withKnobs],
+  title: 'components/button',
 };
 
 const buttonText = text('text', 'button text');

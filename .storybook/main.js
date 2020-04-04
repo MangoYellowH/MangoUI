@@ -4,7 +4,7 @@ module.exports = {
     stories: ['../src/**/*.stories.tsx'],
     addons: [
       '@storybook/addon-viewport',
-      '@storybook/addon-knobs/register',
+      '@storybook/addon-knobs',
       '@storybook/addon-storysource',
       '@storybook/addon-actions',
       ],
