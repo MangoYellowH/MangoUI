@@ -10,9 +10,49 @@ export default {
 };
 
 const ButtonStory = (): ReactElement => (
-  <Button onClick={action('button click')}>
-    {text('text', 'button text')}
-  </Button>
+  <div>
+    <Button
+      onClick={action('default button')}
+      type="default"
+    >
+      {text('default text', 'default')}
+    </Button>
+    <Button
+      onClick={action('primary button')}
+      type="primary"
+    >
+      {text('primary text', 'primary')}
+    </Button>
+    <Button
+      onClick={action('error button')}
+      type="error"
+    >
+      {text('error text', 'error')}
+    </Button>
+    <br />
+    <Button
+      onClick={action('default button')}
+      disabled
+      type="default"
+    >
+      {text('default text', 'default')}
+    </Button>
+    <Button
+      onClick={action('primary button')}
+      disabled
+      type="primary"
+    >
+      {text('primary text', 'primary')}
+    </Button>
+    <Button
+      onClick={action('error button')}
+      disabled
+      type="error"
+    >
+      {text('error text', 'error')}
+    </Button>
+  </div>
+
 );
 
 export const mango = Mango<{}>(ButtonStory);
