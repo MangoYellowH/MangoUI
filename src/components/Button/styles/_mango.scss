@@ -1,17 +1,17 @@
-$default-border-color: $yellow6;
-$default-color: $white;
-$default-background-color: $yellow6;
-$default-hover-color: $yellow7;
+$button-default-border-color: transparent;
+$button-default-font-color: $font-color-white;
+$button-default-background-color: $button-default-color;
+$button-default-hover-color: $button-default-hover;
 
-$primary-border-color: $lime7;
-$primary-color: $white;
-$primary-background-color: $lime7;
-$primary-hover-color: $lime8;
+$button-primary-border-color: transparent;
+$button-primary-font-color: $font-color-white;
+$button-primary-background-color: $button-primary-color;
+$button-primary-hover-color: $button-primary-hover;
 
-$error-border-color: $orange8;
-$error-color: $white;
-$error-background-color: $orange8;
-$error-hover-color: $orange9;
+$button-error-border-color: transparent;
+$button-error-font-color: $font-color-white;
+$button-error-background-color: $button-error-color;
+$button-error-hover-color: $button-error-hover;
 
 $button-border-radius: 8px !default;
 

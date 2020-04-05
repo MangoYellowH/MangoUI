@@ -1,17 +1,17 @@
-$default-border-color: #333333 !default;
-$default-color: #010101 !default;
-$default-background-color: #ffffff !default;
-$default-hover-color: $default-background-color !default;
+$button-default-border-color: #333333 !default;
+$button-default-font-color: #010101 !default;
+$button-default-background-color: #ffffff !default;
+$button-default-hover-color: $button-default-background-color !default;
 
-$primary-border-color: #333333 !default;
-$primary-color: #010101 !default;
-$primary-background-color: #ffffff !default;
-$primary-hover-color: $primary-background-color !default;
+$button-primary-border-color: #333333 !default;
+$button-primary-font-color: #010101 !default;
+$button-primary-background-color: #ffffff !default;
+$button-primary-hover-color: $button-primary-background-color !default;
 
-$error-border-color: #333333 !default;
-$error-color: #010101 !default;
-$error-background-color: #ffffff !default;
-$error-hover-color: $error-background-color !default;
+$button-error-border-color: #333333 !default;
+$button-error-font-color: #010101 !default;
+$button-error-background-color: #ffffff !default;
+$button-error-hover-color: $button-error-background-color !default;
 
 $button-border-radius: 4px !default;
 
@@ -27,29 +27,29 @@ $button-border-radius: 4px !default;
   padding: 0.5rem 1rem;
 
   &.default {
-    border-color: $default-border-color;
-    color: $default-color;
-    background-color: $default-background-color;
+    border-color: $button-default-border-color;
+    color: $button-default-font-color;
+    background-color: $button-default-background-color;
     &:hover {
-      background-color: $default-hover-color;
+      background-color: $button-default-hover-color;
     }
   }
 
   &.primary {
-    border-color: $primary-border-color;
-    color: $primary-color;
-    background-color: $primary-background-color;
+    border-color: $button-primary-border-color;
+    color: $button-primary-font-color;
+    background-color: $button-primary-background-color;
     &:hover {
-      background-color: $primary-hover-color;
+      background-color: $button-primary-hover-color;
     }
   }
 
   &.error {
-    border-color: $error-border-color;
-    color: $error-color;
-    background-color: $error-background-color;
+    border-color: $button-error-border-color;
+    color: $button-error-font-color;
+    background-color: $button-error-background-color;
     &:hover {
-      background-color: $error-hover-color;
+      background-color: $button-error-hover-color;
     }
   }
 

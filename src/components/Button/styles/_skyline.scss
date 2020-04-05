@@ -1,13 +1,16 @@
-$default-border-color: $yellow5;
-$default-color: $gray8;
-$default-background-color: $yellow5;
+$button-default-border-color: transparent;
+$button-default-font-color: $font-color-white;
+$button-default-background-color: $button-default-color;
+$button-default-hover-color: $button-default-hover;
 
-$primary-border-color: $lime6;
-$primary-color: $white;
-$primary-background-color: $lime6;
+$button-primary-border-color: transparent;
+$button-primary-font-color: $font-color-white;
+$button-primary-background-color: $button-primary-color;
+$button-primary-hover-color: $button-primary-hover;
 
-$error-border-color: $orange6;
-$error-color: $white;
-$error-background-color: $orange6;
+$button-error-border-color: transparent;
+$button-error-font-color: $font-color-white;
+$button-error-background-color: $button-error-color;
+$button-error-hover-color: $button-error-hover;
 
 @import './base';
