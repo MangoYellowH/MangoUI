@@ -6,7 +6,7 @@ import Skyline from '../../HOC/WithTheme/Skyline';
 import Button from './index';
 
 export default {
-  title: 'components/button',
+  title: 'Components/Button',
 };
 
 const ButtonStory = (): ReactElement => (

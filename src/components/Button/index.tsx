@@ -20,7 +20,7 @@ const Button: React.FC<ButtonProps> = ({
 }: ButtonProps): ReactElement<ButtonProps> => (
   <button
     type="button"
-    className={clsx('Button', type, disabled && 'disabled', classes)}
+    className={clsx('Button', type, classes)}
     disabled={disabled}
     onClick={onClick}
   >
