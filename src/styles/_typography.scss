@@ -2,8 +2,6 @@
 
 $font-family: Arial, Helvetica, sans-serif !default;
 
-$font-size-normal: 256em !default; // 16px
-
 @mixin buttonText {
   @include font-size(0.875rem !important); // 14px
   font-weight: 500;

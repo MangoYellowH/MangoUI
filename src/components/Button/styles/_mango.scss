@@ -1,13 +1,18 @@
-$default-border-color: #333333;
-$default-color: #010101;
-$default-background-color: #ffffff;
+$default-border-color: $yellow6;
+$default-color: $white;
+$default-background-color: $yellow6;
+$default-hover-color: $yellow7;
 
-$primary-border-color: #333333;
-$primary-color: #010101;
-$primary-background-color: #ffffff;
+$primary-border-color: $lime7;
+$primary-color: $white;
+$primary-background-color: $lime7;
+$primary-hover-color: $lime8;
 
-$error-border-color: #333333;
-$error-color: #010101;
-$error-background-color: #ffffff;
+$error-border-color: $orange8;
+$error-color: $white;
+$error-background-color: $orange8;
+$error-hover-color: $orange9;
+
+$button-border-radius: 8px !default;
 
 @import './base';
