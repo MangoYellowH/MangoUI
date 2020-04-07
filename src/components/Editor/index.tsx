@@ -5,11 +5,12 @@ import clsx from 'clsx';
 interface EditorProps {
   classes?: string | string[];
   editorState: EditorState;
+  placeholder?: string;
   onChange: (state: EditorState) => void;
 }
 
 const Editor: React.FC<EditorProps> = ({
-  classes, onChange, editorState,
+  classes, onChange, editorState, placeholder,
 }: EditorProps): ReactElement<EditorProps> => {
   const thisEditor = React.useRef<BaseEditor>(null);
 
@@ -34,6 +35,7 @@ const Editor: React.FC<EditorProps> = ({
       <BaseEditor
         ref={thisEditor}
         editorState={editorState}
+        placeholder={placeholder}
         onChange={(state: EditorState): void => onChange(state)}
       />
     </div>
