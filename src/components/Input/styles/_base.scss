@@ -1,3 +1,8 @@
-input[type=text] {
+$input-border-radius: 2px !default;
+
+input[type~="text"] {
   border: 1px solid black;
+  margin: 2 px;
+  border-radius: $input-border-radius;
+  height: 42px;
 }

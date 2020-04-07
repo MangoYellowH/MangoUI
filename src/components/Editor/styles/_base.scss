@@ -1,3 +1,8 @@
-.Editor {
+$editor-border-radius: 2px !default;
 
+
+.Editor {
+  border: 1px solid black;
+  margin: 2px;
+  border-radius: $editor-border-radius;
 }

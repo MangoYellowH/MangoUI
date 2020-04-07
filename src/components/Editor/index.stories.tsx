@@ -1,5 +1,6 @@
 import React, { ReactElement } from 'react';
 import { EditorState } from 'draft-js';
+import { text } from '@storybook/addon-knobs';
 import Mango from '../../HOC/WithTheme/Mango';
 import Skyline from '../../HOC/WithTheme/Skyline';
 import Editor from './index';
@@ -18,6 +19,7 @@ const EditorStory = (): ReactElement => {
     <Editor
       editorState={editorState}
       onChange={setEditorState}
+      placeholder={text('placeholder', 'placeholder')}
     />
   );
 };
