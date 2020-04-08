@@ -3,20 +3,30 @@ import clsx from 'clsx';
 
 
 interface InputProps {
-  type: string;
+  type?: string;
   classes?: string | string[];
   placeholder?: string;
+  value: string;
+  onChange: (value: string) => void;
 }
 
 
 const Input: React.FC<InputProps> = ({
-  type, classes, placeholder,
-}: InputProps): ReactElement<InputProps> => (
-  <input
-    className={clsx(classes)}
-    type={type}
-    placeholder={placeholder}
-  />
-);
+  type = 'text', classes, placeholder, value, onChange,
+}: InputProps): ReactElement<InputProps> => {
+  const handleChange = (e: React.ChangeEvent<HTMLInputElement>): void => {
+    onChange(e.target.value);
+  };
+
+  return (
+    <input
+      className={clsx(classes)}
+      type={type}
+      placeholder={placeholder}
+      value={value}
+      onChange={handleChange}
+    />
+  );
+};
 
 export default Input;

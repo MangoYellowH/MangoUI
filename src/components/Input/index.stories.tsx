@@ -1,4 +1,4 @@
-import React, { ReactElement } from 'react';
+import React, { ReactElement, useState } from 'react';
 import { text } from '@storybook/addon-knobs';
 import Mango from '../../HOC/WithTheme/Mango';
 import Skyline from '../../HOC/WithTheme/Skyline';
@@ -9,13 +9,17 @@ export default {
   title: 'Components/Input',
 };
 
-const InputStory = (): ReactElement => (
-  <Input
-    type="text"
-    placeholder={text('placeholder', 'placeholder')}
-  />
-);
-
+const InputStory = (): ReactElement => {
+  const [value, setValue] = useState('');
+  return (
+    <Input
+      type="text"
+      placeholder={text('placeholder', 'placeholder')}
+      value={value}
+      onChange={setValue}
+    />
+  );
+};
 
 export const mango = Mango<{}>(InputStory);
 
