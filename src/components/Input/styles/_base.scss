@@ -16,6 +16,7 @@ input[type~="text"] {
   background-color: $input-background-color;
   &::placeholder {
     color: $input-placeholder-color;
+    font-style: italic;
   }
   &:focus, &:hover {
     border-color: $input-border-color-focus;
