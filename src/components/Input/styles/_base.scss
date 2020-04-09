@@ -18,7 +18,6 @@ input[type~="text"] {
     color: $input-placeholder-color;
   }
   &:focus, &:hover {
-    @include shadow;
     border-color: $input-border-color-focus;
   }
 }
