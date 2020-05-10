@@ -5,15 +5,7 @@ module.exports = {
     jest: true,
     es6: true,
   },
-  extends: [
-    'airbnb',
-    'eslint:recommended',
-    'plugin:@typescript-eslint/recommended',
-    'plugin:prettier/recommended',
-    'prettier/flowtype',
-    'prettier/react',
-    'prettier/standard',
-  ],
+  extends: './node_modules/@mango-solution/shared-config',
   parser: '@typescript-eslint/parser',
   parserOptions: {
     ecmaVersion: 2018,
@@ -29,16 +21,5 @@ module.exports = {
         extensions: ['.js', '.jsx', '.ts', '.tsx'],
       },
     },
-  },
-  rules: {
-    'prettier/prettier': 'error',
-    'react/jsx-filename-extension': [
-      'error',
-      { extensions: ['.js', '.jsx', 'tsx', 'ts'] },
-    ],
-    'import/extensions': [
-      'error',
-      { extensions: ['.js', '.jsx', 'tsx', 'ts'] },
-    ],
   },
 };
