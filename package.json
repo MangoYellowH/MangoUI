@@ -18,6 +18,7 @@
   "homepage": "https://github.com/MangoYellowH/MangoUI#readme",
   "devDependencies": {
     "@babel/core": "^7.9.0",
+    "@mango-solution/shared-config": "^0.0.2",
     "@storybook/addon-info": "^5.3.17",
     "@storybook/addon-storysource": "^5.3.17",
     "@storybook/addon-viewport": "^5.3.17",

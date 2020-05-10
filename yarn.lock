@@ -1295,6 +1295,11 @@
     "@types/yargs" "^15.0.0"
     chalk "^3.0.0"
 
+"@mango-solution/shared-config@^0.0.2":
+  version "0.0.2"
+  resolved "https://registry.yarnpkg.com/@mango-solution/shared-config/-/shared-config-0.0.2.tgz#2bdf755af50a06f5024e302e830362dd62bba068"
+  integrity sha512-oFrliV364liQW785nAwXUfi0FKapNoygqd/HG9jTx1fPFbF8KVTIe+/6DdhAvi/NNrLiwz8t0Hu2yKJBHtdjKw==
+
 "@mrmlnc/readdir-enhanced@^2.2.1":
   version "2.2.1"
   resolved "https://registry.yarnpkg.com/@mrmlnc/readdir-enhanced/-/readdir-enhanced-2.2.1.tgz#524af240d1a360527b730475ecfa1344aa540dde"
